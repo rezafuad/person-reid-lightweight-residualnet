@@ -1,4 +1,35 @@
-<h1 align="center"> Person_reID_baseline_pytorch </h1>
+<h1> Lightweight Residual Network for Person Re-identification </h1>
+
+This repository use a lot of code from https://github.com/layumi/Person_reID_baseline_pytorch.
+
+We add a reranking code (evaluate_rerank2.py) for multi-query testing on Market-1501 dataset.
+
+**1. Training process:**
+Just run train-light.py
+```bash
+python train-light.py
+```
+
+**2. Testing process:**
+Just run test-light.py
+```bash
+python test-light.py
+```
+
+Our paper that described the model:
+```
+@inproceedings{rachmadi2020lightweight,
+  title={Lightweight Residual Network for Person Re-identification},
+  author={Reza Fuad Rachmadi and Supeno Mardi Susiki Nugroho and I Ketut Eddy Purnama},
+  booktitle={International Conference on Information Technology and Digital Applications (ICITDA)},
+  year={2020},
+}
+```
+
+
+**Original Person_reID_baseline_pytorch README.md**
+
+<h1> Person_reID_baseline_pytorch </h1>
 
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/layumi/Person_reID_baseline_pytorch.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/layumi/Person_reID_baseline_pytorch/context:python)
 [![Build Status](https://travis-ci.org/layumi/Person_reID_baseline_pytorch.svg?branch=master)](https://travis-ci.org/layumi/Person_reID_baseline_pytorch)
