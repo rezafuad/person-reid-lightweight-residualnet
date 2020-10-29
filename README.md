@@ -2,6 +2,8 @@
 
 This repository use a lot of code from https://github.com/layumi/Person_reID_baseline_pytorch.
 
+We use Resnet-CIFAR implementation by Yerlan Idelbayev (https://github.com/akamaster/pytorch_resnet_cifar10).
+
 We add a reranking code (evaluate_rerank2.py) for multi-query testing on Market-1501 dataset.
 
 **1. Training process:**
@@ -9,6 +11,7 @@ Just run train-light.py
 ```bash
 python train-light.py
 ```
+***PS: You need to download the pretrained ResNet-CIFAR model provided by https://github.com/akamaster/pytorch_resnet_cifar10 and saved in weights-cifar10 directory.***
 
 **2. Testing process:**
 Just run test-light.py
@@ -26,7 +29,7 @@ Our paper that described the model:
 }
 ```
 
-
+<br/></br><br/><br/></br><br/><br/></br><br/>
 **Original Person_reID_baseline_pytorch README.md**
 
 <h1> Person_reID_baseline_pytorch </h1>
