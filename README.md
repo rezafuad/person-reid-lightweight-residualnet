@@ -6,6 +6,8 @@ We use Resnet-CIFAR implementation by Yerlan Idelbayev (https://github.com/akama
 
 We add a reranking code (evaluate_rerank2.py) for multi-query testing on Market-1501 dataset.
 
+Note: The reranking method provide here is different with the implementation in the paper (We use divide and fuse).
+
 **1. Training process:**
 Just run train-light.py
 ```bash
